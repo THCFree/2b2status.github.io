@@ -35,6 +35,8 @@
                     <li class="nav-item"><a class="nav-link" href="#about">Commands</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="APIEndpoint.html" target="_blank">API Endpoints</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -59,10 +61,11 @@
                 <div class="col-lg-8">
                     <h2 class="text-white mb-4">Commands</h2>
                     <p class="text-white-50">
-                        Mineraft Commands:<br>
+                        Minecraft Commands:<br>
                         !help | To get the help command!<br>
                         !!tps | Get the 2B2T TPS!<br>
                         !follow | Tell the bot to follow you in render distance!<br>
+                        !stopfollow | The bot will stop following you!<br>
                         !dupe | Tell the bot to dupe!<br>
                         !report | Report the user!<br>
                         !locate | Tell you the location of the bot!<br>
@@ -70,6 +73,25 @@
                         !op | Get "oped" on 2B2T<br>
                         !come | Tell the bot to come to your coords in render distance!<br>
                         !stopfollow | Tell the bot to follow you!<br>
+                        !armor | Tell the bot to wear armor!<br>
+                        !bp | Shows you the best ping that a player have on 2B2T!<br>
+                        !wp | Shows you the worst ping that a player have on 2B2T!<br>
+                        !coinflip | Play coinflip with 2B2Status!<br>
+                        !fact | Give you a random cat's fact!<br>
+                        !gamemode | Give you the gamemode that you wanted!<br>
+                        !owner | Tell you who is the owner/devs!<br>
+                        !ping | Tell you what is your ping on 2B2T!<br>
+                        !rps | Play rock paper scissors with 2B2Status!<br>
+                        <br>
+                        2B2T Minecraft Commands:<br>
+                        !joins | SShow you the joins of a specific 2b2t player!<br>
+                        !lastdeath | Show you the latest deaths of a specific player!<br>
+                        !lastkill | Show you the latest kills of a specific player!<br>
+                        !leaves | Show you the leaves of a specific 2b2t player!<br>
+                        !queue | Shows you the queue of 2B2T!<br>
+                        !online | Shows you if a player joined 2B2T/2B2TQueue!<br>
+                        !stats | Shows you the stats of a specific player!<br>
+                        !status | Shows you the status of 2B2T!<br>
                         <br>
                         Special thanks to startbootstrap.com for the based css and website!
                     </p>
@@ -89,7 +111,7 @@
                     <div class="featured-text text-center text-lg-left">
                         <h4>The Project</h4>
                         <p class="text-black-50 mb-0">I started making this minecraft bot when I got the inspiration
-                            from 2B2Bot and LolRiTTeRBot!</p>
+                            from 2B2BOT and LolRiTTeRBot!</p>
                     </div>
                 </div>
             </div>
@@ -102,29 +124,32 @@
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4 class="text-white">Credits</h4>
                                 <p class="mb-0 text-white-50">Thanks to LolRiTTeR and tycrek for their amazing API and
-                                    thanks to romtec for some of his source code! </p>
-                                <hr class="d-none d-lg-block mb-0 ms-0" />
+                                    thanks to romtec for some of his source code! All people will be credited at <a
+                                        href="./APIEndpoint.html">API endpoints page!</a>
                             </div>
+                            </p>
+                            <hr class="d-none d-lg-block mb-0 ms-0" />
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- Project Two Row-->
-            <div class="row gx-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
-                <div class="col-lg-6 order-lg-first">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-right">
-                                <h4 class="text-white">Development</h4>
-                                <p class="mb-0 text-white-50">Currently I am still working alone. I hope there will be
-                                    devs to help with this project! </p>
-                                <hr class="d-none d-lg-block mb-0 me-0" />
-                            </div>
+        </div>
+        <!-- Project Two Row-->
+        <div class="row gx-0 justify-content-center">
+            <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
+            <div class="col-lg-6 order-lg-first">
+                <div class="bg-black text-center h-100 project">
+                    <div class="d-flex h-100">
+                        <div class="project-text w-100 my-auto text-center text-lg-right">
+                            <h4 class="text-white">Development</h4>
+                            <p class="mb-0 text-white-50">2B2Status has officially launched V1 Beta! Invite
+                                2B2Status today!</p>
+                            <hr class="d-none d-lg-block mb-0 me-0" />
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     </section>
     <!-- Signup-->
@@ -188,7 +213,8 @@
                             <i class="fas fa-envelope text-primary mb-2"></i>
                             <h4 class="text-uppercase m-0">Discord Server</h4>
                             <hr class="my-4 mx-auto" />
-                            <div class="small text-black-50"><a href="https://discord.gg/M5KUunuc4E">Discord</a></div>
+                            <div class="small text-black-50"><a href="https://discord.gg/M5KUunuc4E"
+                                    target='_blank'>Discord</a></div>
                         </div>
                     </div>
                 </div>
@@ -199,16 +225,15 @@
                             <h4 class="text-uppercase m-0">Invite Discord Bot</h4>
                             <hr class="my-4 mx-auto" />
                             <div class="small text-black-50"><a
-                                    href="https://discord.com/api/oauth2/authorize?client_id=880737524711043073&permissions=2147609664&scope=bot">Invite
+                                    href="https://discord.com/api/oauth2/authorize?client_id=880737524711043073&permissions=140123630656&scope=bot%20applications.commands"
+                                    target='_blank'>Invite
                                     2B2Status to your Discord</a></div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="social d-flex justify-content-center">
-                <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                <a class="mx-2" href="https://github.com/BruhBruhStupidCoder"><i class="fab fa-github"></i></a>
+                <a class="mx-2" href="./github.html"><i class="fab fa-github"></i></a>
             </div>
         </div>
     </section>
